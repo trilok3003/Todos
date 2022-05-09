@@ -3,9 +3,9 @@ import './style.css';
 
 export default function App() {
   const [todos, setTodos] = React.useState([
-    { id: 1, text: 'Wash dishes', done: false },
-    { id: 2, text: 'Do laundry', done: true },
-    { id: 3, text: 'Take shower', done: false },
+    { id: 1, text: 'todo 1', done: false },
+    { id: 2, text: 'todo 2', done: true },
+    { id: 3, text: 'todo 3', done: false },
   ]);
 
   return (
